@@ -1,0 +1,9 @@
+Endpoints to Test:
+
+GET /api/clients/: List all clients.
+POST/api/clients/: Create a new client.
+GET /api/clients/{id}/: Get client details and projects.
+PUT / PATCH /api/clients/{id}/: Update a client.
+DELETE /api/clients/{id}/: Delete a client.
+POST /api/clients/{id}/projects/: Add a project to a client.
+GET /api/projects/: List all projects assigned to the logged-in user.
